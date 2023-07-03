@@ -2,8 +2,6 @@
 
 ## Linear algebra in Rust!
 
----
-
 Parallelized using rayon with support for many common datatypes,
 linalg-rs tries to make matrix operations easier for the user,
 while still giving you as the user the performance you deserve.
