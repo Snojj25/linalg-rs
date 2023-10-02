@@ -1,0 +1,2 @@
+too-many-arguments-threshold = 5
+allow-print-in-tests = true
