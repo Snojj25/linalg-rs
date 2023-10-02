@@ -63,8 +63,6 @@ fn main() {
 More examples can be found [here](/examples/)
 
 
-## Documentation
-Full API documentation can be found [here](https://docs.rs/sukker/latest/sukker/).
 
 ## Features 
 - [X] Easy to use!
