@@ -1,0 +1,43 @@
+[package]
+name = "sukker"
+version = "2.1.3"
+edition = "2021"
+authors = ["Joergen Aleksander Fagervik <jorgenafagervik@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+description = "Linear Algebra and Matrices made easy!"
+repository = "https://github.com/Jafagervik/sukker.git"
+
+keywords = ["ai","matrix",  "numpy", "linalg", "vector"]
+categories = ["mathematics", "science"]
+
+rustflags = ["-C", "opt-level=3"]
+
+[dependencies]
+anyhow = "1.0.71"
+itertools = "0.10.5"
+num-traits = "0.2.15"
+rand = "0.8.5"
+rayon = "1.7.0"
+serde = { version = "1.0.164", features = ["derive"] }
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "dense_mnnp_bench"
+harness = false
+
+[[bench]]
+name = "dense_nn_bench"
+harness = false
+
+
+[[bench]]
+name = "sparse_mnnp_bench"
+harness = false
+
+[[bench]]
+name = "sparse_nn_bench"
+harness = false
