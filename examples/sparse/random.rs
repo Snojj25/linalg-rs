@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use sukker::{SparseMatrix, SparseMatrixData};
+use linalg_rs::{SparseMatrix, SparseMatrixData};
 
 fn main() {
     let sparse = SparseMatrix::<f32>::randomize_range(1.0, 7.5, 0.5, (8, 8));

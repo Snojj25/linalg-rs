@@ -1,11 +1,11 @@
-# Sukker - Linear Algebra library written in rust
+# linalg-rs - Linear Algebra library written in rust
 
 
 Linear algebra in Rust!
 ---
 
 Parallelized using rayon with support for many common datatypes,
-sukker tries to make matrix operations easier for the user, 
+linalg-rs tries to make matrix operations easier for the user, 
 while still giving you as the user the performance you deserve.
 
 Regular matrices have many features already ready, while 
@@ -24,7 +24,7 @@ sparse matrices!
 ### Dens Matrices 
 
 ```rust 
-use sukker::{LinAlgFloats, Matrix};
+use linalg_rs::{LinAlgFloats, Matrix};
 
 fn main() {
     let a = Matrix::<f32>::randomize((8, 56));
@@ -44,7 +44,7 @@ fn main() {
 
 ```rust 
 use std::collections::HashMap;
-use sukker::{SparseMatrix, SparseMatrixData};
+use linalg_rs::{SparseMatrix, SparseMatrixData};
 
 fn main() {
     let indexes: SparseMatrixData<f64> = smd![

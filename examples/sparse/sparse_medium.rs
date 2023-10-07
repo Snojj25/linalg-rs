@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use sukker::{smd, SparseMatrix, SparseMatrixData};
+use linalg_rs::{smd, SparseMatrix, SparseMatrixData};
 
 fn main() {
     let mut indexes: SparseMatrixData<f64> = HashMap::new();

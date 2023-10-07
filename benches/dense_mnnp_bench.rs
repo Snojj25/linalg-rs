@@ -1,4 +1,4 @@
-use sukker::Matrix;
+use linalg_rs::Matrix;
 
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 

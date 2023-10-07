@@ -1,4 +1,4 @@
-use sukker::Matrix;
+use linalg_rs::Matrix;
 
 fn main() {
     let a: Matrix<i32> = Matrix::randomize((3, 1024));

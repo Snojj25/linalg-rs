@@ -1,4 +1,4 @@
-use sukker::{smd, SparseMatrix};
+use linalg_rs::{smd, SparseMatrix};
 
 fn main() {
     let matrix = SparseMatrix::<i32>::eye(100);

@@ -1,4 +1,4 @@
-use sukker::Matrix;
+use linalg_rs::Matrix;
 
 fn main() {
     let path = "../file.txt";

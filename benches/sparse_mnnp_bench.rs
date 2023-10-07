@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use sukker::{smd, SparseMatrix, SparseMatrixData};
+use linalg_rs::{smd, SparseMatrix, SparseMatrixData};
 
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 

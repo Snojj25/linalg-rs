@@ -1,5 +1,5 @@
-use sukker::constants::EF64;
-use sukker::Matrix;
+use linalg_rs::constants::EF64;
+use linalg_rs::Matrix;
 
 fn main() {
     let a = Matrix::<f64>::randomize((2, 3));

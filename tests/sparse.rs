@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use sukker::{smd, SparseMatrix, SparseMatrixData};
+use linalg_rs::{smd, SparseMatrix, SparseMatrixData};
 
 #[test]
 fn sparse_basic() {
