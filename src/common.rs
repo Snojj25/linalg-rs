@@ -55,7 +55,7 @@ impl MatrixElement for f32 {}
 impl MatrixElement for f64 {}
 
 /// Some operations can only be done on floats,
-/// and these can be implemented both for Matrix,
+/// and these can be implemented both for Matrix
 /// and sparse matrix
 pub trait LinAlgFloats<'a, T>
 where
