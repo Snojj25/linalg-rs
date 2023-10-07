@@ -1,6 +1,6 @@
 // macros.rs
 
-// Calculates 1D index from row and col
+// Calculates 1D index from row and collumn
 #[macro_export]
 macro_rules! at {
     ($row:expr, $col:expr, $ncols:expr) => {
