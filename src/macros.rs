@@ -1,5 +1,3 @@
-// macros.rs
-
 // Calculates 1D index from row and col
 #[macro_export]
 macro_rules! at {
