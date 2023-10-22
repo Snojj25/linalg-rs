@@ -2,13 +2,13 @@
 name = "linalg-rs"
 version = "1.1.2"
 edition = "2021"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 readme = "README.md"
 
-description = "Linear Algebra and Matrices made easy!"
+description = "Linear algebra in Rust!"
 repository = "https://github.com/Snojj25/linalg-rs"
 
-keywords = ["ai","matrix",  "numpy", "linalg", "vector"]
+keywords = ["ai", "matrix", "numpy", "linalg", "vector"]
 categories = ["mathematics", "science"]
 
 rustflags = ["-C", "opt-level=3"]
